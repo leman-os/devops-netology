@@ -2,7 +2,7 @@
 Ответ:
     commit aefead2207ef7e2aa5dc81a34aedf0cad4c32545
 Комманда: 
-    git show aefea
+    git show aefea 
 2.
 Ответ:
     tag: v0.12.23
