@@ -1,7 +1,19 @@
-Будут проигнорированы в каталоге terraform: 
-1) Все файлы в директориях .terraform, неважно как грубоко в папках они лежат;
-2) Все файлы с форматом .tfstate и формата .tfstate.[любое количество символов];
-3) Файлы crash.log и файлы crash.[любое количество символов].log;
-4) Файлы с форматом .tfvars и .tfvars.json;
-5) Файлы override.tf и override.tf.json, а также все файлы [любое количество символов]_override.tf и [любое количество символов]_override.tf.json;
-6) Все файлы с форматом .terraformrc и все файлы terraform.rc.
+5) 8c928e835 - создана
+    5af1e6234 - изменена
+git log -S 'func providerSource' --oneline
+git show 8c928e835  
+
+6)
+78b122055
+52dbf9483
+41ab0aef7
+66ebff90c
+8364383c3
+ 
+git grep -n globalPluginDirs
+git log -L:'globalPluginDirs':'plugins.go' -s --pretty=format:"%h"
+
+7)
+Martin Atkins
+git log -S 'synchronizedWriters' --oneline
+git show 5ac311e2a
